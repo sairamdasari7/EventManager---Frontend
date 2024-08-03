@@ -1,0 +1,44 @@
+/* General styling for the Dashboard */
+.dashboard {
+    display: flex;
+    background-color: #f0f0f0; /* Light grey background color */
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .sidebar-image {
+    width: 30%; /* Adjust width as needed */
+    background-color: #dcdcdc; /* Slightly darker background for the sidebar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
+  .content {
+    width: 70%; /* Adjust width as needed */
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
+  h1 {
+    color: #333; /* Darker text color for better readability */
+  }
+  
+  button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
